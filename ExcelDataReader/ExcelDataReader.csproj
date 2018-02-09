@@ -93,6 +93,7 @@
     <Compile Include="Controllers\FileController.cs" />
     <Compile Include="CorePriceRecord.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Exceptions\WorksheetNotFoundException.cs" />
     <Compile Include="ItemType.cs" />
     <Compile Include="Material.cs" />
     <Compile Include="Program.cs" />
@@ -105,5 +106,6 @@
     </EmbeddedResource>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
